@@ -4,6 +4,7 @@ core = "7.x"
 package = "Humanitarianresponse"
 php = "5.2.4"
 dependencies[] = "features"
+dependencies[] = "i18n_taxonomy"
 dependencies[] = "taxonomy"
 features[taxonomy][] = "themes"
 l10n path = http://localize.humanitarianresponse.info/sites/localize.humanitarianresponse.info/files/l10n_packager/%core/%project/%project-%release.%language.po
