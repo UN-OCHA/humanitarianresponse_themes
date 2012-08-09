@@ -49,6 +49,12 @@ function humanitarianresponse_themes_field_default_fields() {
           'type' => 'hidden',
           'weight' => 1,
         ),
+        'ical' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
       ),
       'entity_type' => 'taxonomy_term',
       'field_name' => 'description_field',
@@ -107,6 +113,12 @@ function humanitarianresponse_themes_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'ical' => array(
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
