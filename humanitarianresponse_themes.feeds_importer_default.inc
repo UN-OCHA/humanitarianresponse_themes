@@ -23,6 +23,7 @@ function humanitarianresponse_themes_feeds_importer_default() {
         'auto_detect_feeds' => FALSE,
         'use_pubsubhubbub' => FALSE,
         'designated_hub' => '',
+        'source' => 'http://terms.humanitarianresponse.info/themes.csv',
       ),
     ),
     'parser' => array(
