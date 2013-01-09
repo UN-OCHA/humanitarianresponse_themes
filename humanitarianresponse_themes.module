@@ -4,3 +4,10 @@
  */
 
 include_once 'humanitarianresponse_themes.features.inc';
+
+/**
+ * Implements hook_cron()
+ */
+function humanitarianresponse_display_cron() {
+  humanitarianresponse_core_feeds_check('csv_themes', 'http://terms.humanitarianresponse.info/themes.csv');
+}
