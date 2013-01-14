@@ -62,6 +62,11 @@ function humanitarianresponse_themes_feeds_importer_default() {
             'target' => 'parent',
             'unique' => FALSE,
           ),
+          5 => array(
+            'source' => 'UUID',
+            'target' => 'uuid:uuid',
+            'unique' => FALSE,
+          ),
         ),
         'update_existing' => '2',
         'input_format' => 'plain_text',
