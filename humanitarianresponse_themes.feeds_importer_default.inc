@@ -35,7 +35,7 @@ function humanitarianresponse_themes_feeds_importer_default() {
     'processor' => array(
       'plugin_key' => 'FeedsTermProcessor',
       'config' => array(
-        'vocabulary' => 'themes',
+        'bundle' => 'themes',
         'mappings' => array(
           0 => array(
             'source' => 'Name:en',
